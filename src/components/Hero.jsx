@@ -2,7 +2,9 @@ function Hero() {
   return (
     <>
     <div>
-
+      <a></a>
+      <a></a>
+      <a></a>
     </div>
       <div>
         <h1>Hi there, I'm Cynthia</h1>
@@ -14,7 +16,7 @@ function Hero() {
         </p>
       </div>
       <div>
-        <img/>
+        <img src="/src/Images/picture.jpeg"/>
       </div>
     </>
   );
