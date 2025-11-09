@@ -9,7 +9,7 @@ function Hero() {
           {/* Social icons - stacked vertically on both mobile and desktop */}
           <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-lg md:text-xl text-gray-700">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/cynthia-muinde/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-600 transition-colors"
@@ -17,7 +17,7 @@ function Hero() {
               <FaLinkedin />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/CyntiaMumbua"
               target="_blank"
               rel="noreferrer"
               className="hover:text-sky-500 transition-colors"
@@ -25,7 +25,7 @@ function Hero() {
               <FaTwitter />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/cynmumbua"
               target="_blank"
               rel="noreferrer"
               className="hover:text-gray-900 transition-colors"

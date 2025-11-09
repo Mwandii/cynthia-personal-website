@@ -15,16 +15,16 @@ function Footer() {
           {/* Center - Navigation Links */}
           <nav className="flex flex-wrap justify-center gap-6 md:gap-8">
             <a 
-              href="#services" 
+              href="#skills" 
               className="text-indigo-100 hover:text-white transition-colors"
             >
-              Services
+              Skills
             </a>
             <a 
-              href="#portfolio" 
+              href="#projects" 
               className="text-indigo-100 hover:text-white transition-colors"
             >
-              Portfolio
+              Projects
             </a>
             <a 
               href="#contact" 
@@ -37,7 +37,7 @@ function Footer() {
           {/* Right - Social Icons */}
           <div className="flex gap-4 text-xl md:text-2xl">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/cynthia-muinde/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-indigo-300 transition-colors"
@@ -46,7 +46,7 @@ function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/CyntiaMumbua"
               target="_blank"
               rel="noreferrer"
               className="hover:text-indigo-300 transition-colors"
@@ -55,7 +55,7 @@ function Footer() {
               <FaTwitter />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/cynmumbua"
               target="_blank"
               rel="noreferrer"
               className="hover:text-indigo-300 transition-colors"
