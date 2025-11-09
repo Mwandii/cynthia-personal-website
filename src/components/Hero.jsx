@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 md:gap-20 min-h-screen px-6 md:px-24 py-16 bg-white text-gray-800">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 md:gap-20 h-full px-6 md:px-24 py-16 bg-white text-gray-800">
       
       {/* Left side: Text content and social icons */}
       <div className="flex flex-col items-center md:items-start max-w-xl">
@@ -62,7 +62,7 @@ function Hero() {
         <div className="relative">
           <div className="bg-indigo-900 rounded-full w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 overflow-hidden">
             <img
-              src="/src/Images/picture.jpeg"
+              src="https://plus.unsplash.com/premium_vector-1719858610210-ba3445e84822?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGdpcmwlMjB3ZWJzZGV2ZWxvcGVyJTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
               alt="Cynthia"
               className="w-full h-full object-cover"
             />
