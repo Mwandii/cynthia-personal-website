@@ -13,7 +13,7 @@ function About() {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <img
-                src="https://plus.unsplash.com/premium_vector-1750105808020-b79366c013d6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdpcmwlMjB3ZWJzZGV2ZWxvcGVyJTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
+                src="https://plus.unsplash.com/premium_photo-1681483884570-efce71c53be6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMHRlY2glMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
                 alt="Developer illustration"
                 className="w-full h-full object-cover rounded-2xl shadow-lg"
               />

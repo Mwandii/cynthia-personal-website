@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <footer className="bg-indigo-900 text-white py-12 md:py-16">
+    <footer className="bg-blue-950 text-white py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
@@ -69,7 +69,7 @@ function Footer() {
         {/* Bottom - Copyright */}
         <div className="text-center pt-8 border-t border-indigo-700">
           <p className="text-indigo-200 text-sm">
-            © muindetuva. All rights reserved.
+            © cynthiamumbua. All rights reserved.
           </p>
         </div>
       </div>

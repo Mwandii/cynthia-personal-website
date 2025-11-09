@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function Skills() {
-  const [openSection, setOpenSection] = useState('frontend');
+  const [openSection, setOpenSection] = useState(null);
 
   const toggleSection = (section) => {
     setOpenSection(openSection === section ? null : section);
@@ -37,7 +37,7 @@ function Skills() {
         </p>
 
         {/* Skills Container */}
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8">
           {/* Frontend Developer */}
           <div className="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
