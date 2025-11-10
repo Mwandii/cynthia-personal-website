@@ -3,7 +3,7 @@ function About() {
     <section id="about" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-12 md:mb-16">
           About Me
         </h2>
 
@@ -15,20 +15,20 @@ function About() {
               <img
                 src="https://plus.unsplash.com/premium_photo-1681483884570-efce71c53be6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMHRlY2glMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
                 alt="Developer illustration"
-                className="w-full h-full object-cover rounded-2xl shadow-lg"
+                className="w-full h-full object-cover rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
               />
             </div>
           </div>
 
           {/* Text Content */}
           <div className="w-full md:w-1/2 flex flex-col space-y-6">
-            <p className="text-base  text-gray-700 leading-relaxed">
+            <p className="text-base  text-[#5F6C67] leading-relaxed">
               Experienced in delivering technical support and building modern web 
               applications. Skilled in troubleshooting, system maintenance, and 
               full-stack development, with a focus on providing reliable solutions.
             </p>
             
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-base text-[#5F6C67] leading-relaxed">
               I am passionate about creating seamless user experiences and solving 
               complex technical challenges. With a strong foundation in both frontend 
               and backend technologies, I bring ideas to life through clean, efficient code.
@@ -36,7 +36,7 @@ function About() {
 
             {/* CV Download Button */}
             <div className="pt-4">
-              <button className="bg-[#6B8E7F] text-white px-8 py-3 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
+              <button className="bg-[#6B8E7F] text-white px-8 py-3 rounded-md font-medium hover:bg-[#4A6B5E] hover:animate-bounce hover:cursor-pointer transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
                 <svg 
                   className="w-5 h-5" 
                   fill="none" 
