@@ -23,7 +23,7 @@ useEffect(() => {
         isScrolled ? "bg-white/70 shadow-md" : "bg-white/20 shadow-none"
       }`}>
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">
-        <h1 className="text-xl md:text-2xl font-bold text-[#2C3E3A]">Cynthia Muinde</h1>
+        <h1 href="/" className="text-xl md:text-2xl font-bold text-[#2C3E3A] cursor-pointer">Cynthia Muinde</h1>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-base">
