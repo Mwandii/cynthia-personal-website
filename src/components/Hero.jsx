@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 mx-10 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-white text-gray-800 max-w-7xl">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 mx-10 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-[#F9FAFB] text-gray-800 max-w-7xl">
         
         {/* Left side: Text content and social icons */}
         <div className="flex flex-col items-center md:items-start max-w-lg">
@@ -48,7 +48,7 @@ function Hero() {
               maintenance, and full-stack development with a focus on delivering
               reliable solutions.
             </p>
-            <button className="bg-[#6B8E7F] text-white px-6 py-2.5 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2">
+            <button className="bg-[#6B8E7F] text-white px-6 py-2.5 rounded-md font-medium hover:bg-[#4A6B5E] cursor-pointer hover:shadow-md shadow-[#A8C5B8] transition-colors inline-flex items-center gap-2">
               Contact Me
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
