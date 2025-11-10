@@ -31,10 +31,10 @@ function Skills() {
     <section id="skills" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-white">
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-3">
           Skills
         </h2>
-        <p className="text-center text-gray-600 mb-12 md:mb-16">
+        <p className="text-center text-[#5F6C67] mb-12 md:mb-16">
           My technical level
         </p>
 
@@ -44,7 +44,7 @@ function Skills() {
           <div className=" ">
             <button
               onClick={() => toggleSection('frontend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 transition-colors"
+              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
             >
               <div className="flex items-center gap-4">
                 <div className="text-2xl md:text-3xl text-[#6B8E7F]">
@@ -52,12 +52,12 @@ function Skills() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
                 </div>
-                <span className="text-lg md:text-xl font-semibold text-gray-900">
+                <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
                   Developer
                 </span>
               </div>
               <svg
-                className={`w-6 h-6 text-gray-600 transition-transform ${
+                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
                   openSection === 'frontend' ? 'rotate-180' : ''
                 }`}
                 fill="none"
@@ -78,10 +78,10 @@ function Skills() {
                 {Developer.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
-                      <span className="text-sm font-medium text-gray-700">{skill.name}</span>
-                      <span className="text-sm text-gray-500">{skill.level}%</span>
+                      <span className="text-sm font-medium text-[#2C3E3A]">{skill.name}</span>
+                      <span className="text-sm text-[#5F6C67]">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div className="w-full bg-[#E8EDE9] rounded-full h-2">
                       <div
                         className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
                         style={{ width: `${skill.level}%` }}
@@ -97,7 +97,7 @@ function Skills() {
           <div className="">
             <button
               onClick={() => toggleSection('backend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 transition-colors"
+              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
             >
               <div className="flex items-center gap-4">
                 <div className="text-2xl md:text-3xl text-[#6B8E7F]">
@@ -105,12 +105,12 @@ function Skills() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                   </svg>
                 </div>
-                <span className="text-lg md:text-xl font-semibold text-gray-900">
+                <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
                   Technical Support
                 </span>
               </div>
               <svg
-                className={`w-6 h-6 text-gray-600 transition-transform ${
+                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
                   openSection === 'backend' ? 'rotate-180' : ''
                 }`}
                 fill="none"
@@ -131,8 +131,8 @@ function Skills() {
                 {TechnicalSupport.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
-                      <span className="text-sm font-medium text-gray-700">{skill.name}</span>
-                      <span className="text-sm text-gray-500">{skill.level}%</span>
+                      <span className="text-sm font-medium text-[#2C3E3A]">{skill.name}</span>
+                      <span className="text-sm text-[#5F6C67]">{skill.level}%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div
