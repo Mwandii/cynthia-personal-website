@@ -40,7 +40,7 @@ function Hero() {
               Hi I'm Cynthia
             </h1>
             <h2 className="text-sm md:text-base font-normal text-gray-600 mb-5">
-              IT Support Specialist & Software Developer
+              Technical Support | Finetech
             </h2>
             <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed max-w-md">
               Experienced in providing comprehensive technical support and building
@@ -48,7 +48,7 @@ function Hero() {
               maintenance, and full-stack development with a focus on delivering
               reliable solutions.
             </p>
-            <button className="bg-indigo-900 text-white px-6 py-2.5 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2">
+            <button className="bg-[#6B8E7F] text-white px-6 py-2.5 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2">
               Contact Me
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -60,7 +60,7 @@ function Hero() {
         {/* Right side: Profile image */}
         <div className="shrink-0">
           <div className="relative">
-            <div className="bg-indigo-900 rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
+            <div className="bg-[#6B8E7F] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMHRlY2glMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
                 alt="Cynthia"

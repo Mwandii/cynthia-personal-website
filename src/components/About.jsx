@@ -8,9 +8,9 @@ function About() {
         </h2>
 
         {/* Content Container */}
-        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 lg:gap-16">
+        <div className="flex flex-col md:flex-row  gap-8 md:gap-12 lg:gap-16">
           {/* Image */}
-          <div className="w-full md:w-1/2 flex justify-center">
+          <div className="w-full  flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <img
                 src="https://plus.unsplash.com/premium_photo-1681483884570-efce71c53be6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMHRlY2glMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
@@ -22,13 +22,13 @@ function About() {
 
           {/* Text Content */}
           <div className="w-full md:w-1/2 flex flex-col space-y-6">
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+            <p className="text-base  text-gray-700 leading-relaxed">
               Experienced in delivering technical support and building modern web 
               applications. Skilled in troubleshooting, system maintenance, and 
               full-stack development, with a focus on providing reliable solutions.
             </p>
             
-            <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               I am passionate about creating seamless user experiences and solving 
               complex technical challenges. With a strong foundation in both frontend 
               and backend technologies, I bring ideas to life through clean, efficient code.
@@ -36,7 +36,7 @@ function About() {
 
             {/* CV Download Button */}
             <div className="pt-4">
-              <button className="bg-indigo-900 text-white px-8 py-3 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
+              <button className="bg-[#6B8E7F] text-white px-8 py-3 rounded-md font-medium hover:bg-indigo-800 transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
                 <svg 
                   className="w-5 h-5" 
                   fill="none" 

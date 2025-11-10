@@ -7,7 +7,7 @@ function Skills() {
     setOpenSection(openSection === section ? null : section);
   };
 
-  const frontendSkills = [
+  const Developer = [
     { name: 'HTML & CSS', level: 90 },
     { name: 'JavaScript', level: 85 },
     { name: 'React', level: 88 },
@@ -16,13 +16,15 @@ function Skills() {
     { name: 'Tailwind CSS', level: 87 }
   ];
 
-  const backendSkills = [
+  const TechnicalSupport = [
     { name: 'Node.js', level: 85 },
     { name: 'Python', level: 80 },
     { name: 'PHP', level: 75 },
     { name: 'MongoDB', level: 82 },
     { name: 'MySQL', level: 88 },
-    { name: 'REST APIs', level: 90 }
+    { name: 'REST APIs', level: 90 },
+    { name: 'PostgreSQL', level: 85 },
+    { name: 'Linux', level: 90 }
   ];
 
   return (
@@ -39,7 +41,7 @@ function Skills() {
         {/* Skills Container */}
         <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8">
           {/* Frontend Developer */}
-          <div className="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <div className=" ">
             <button
               onClick={() => toggleSection('frontend')}
               className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 transition-colors"
@@ -51,7 +53,7 @@ function Skills() {
                   </svg>
                 </div>
                 <span className="text-lg md:text-xl font-semibold text-gray-900">
-                  Frontend Developer
+                  Developer
                 </span>
               </div>
               <svg
@@ -73,7 +75,7 @@ function Skills() {
               }`}
             >
               <div className="px-6 pb-6 space-y-4">
-                {frontendSkills.map((skill, index) => (
+                {Developer.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium text-gray-700">{skill.name}</span>
@@ -91,8 +93,8 @@ function Skills() {
             </div>
           </div>
 
-          {/* Backend Developer */}
-          <div className="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          {/* Technical Support */}
+          <div className="">
             <button
               onClick={() => toggleSection('backend')}
               className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 transition-colors"
@@ -104,7 +106,7 @@ function Skills() {
                   </svg>
                 </div>
                 <span className="text-lg md:text-xl font-semibold text-gray-900">
-                  Backend Developer
+                  Technical Support
                 </span>
               </div>
               <svg
@@ -126,7 +128,7 @@ function Skills() {
               }`}
             >
               <div className="px-6 pb-6 space-y-4">
-                {backendSkills.map((skill, index) => (
+                {TechnicalSupport.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium text-gray-700">{skill.name}</span>

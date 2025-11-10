@@ -1,5 +1,4 @@
-
-        import { useState } from "react";
+import { useState } from "react";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +14,7 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 shadow-sm">
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">
-        <h1 className="text-xl md:text-2xl font-bold text-gray-900">Cynthia</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-gray-900">Cynthia Muinde</h1>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-base">
