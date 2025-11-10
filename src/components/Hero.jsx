@@ -2,12 +2,12 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 mx-10 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-[#F9FAFB] text-gray-800 max-w-7xl">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-[#F9FAFB] max-w-7xl">
         
         {/* Left side: Text content and social icons */}
         <div className="flex flex-col items-center md:items-start max-w-lg">
           {/* Social icons - stacked vertically on both mobile and desktop */}
-          <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl text-gray-700">
+          <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl">
             <a
               href="https://www.linkedin.com/in/cynthia-muinde/"
               target="_blank"
