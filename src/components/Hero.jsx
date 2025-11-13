@@ -40,7 +40,7 @@ function Hero() {
               Hi I'm Cynthia
             </h1>
             <h2 className="text-sm md:text-base text-[#5F6C67] font-semibold mb-5">
-              Technical Support | Finetech
+              Technical Support | Fintech
             </h2>
             <p className="text-sm md:text-base text-[#5F6C67] mb-6 leading-relaxed max-w-md">
               Experienced in providing comprehensive technical support and building

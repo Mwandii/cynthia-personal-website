@@ -38,11 +38,6 @@ useEffect(() => {
             </a>
           </li>
           <li>
-            <a href="#projects" className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors px-3 py-2">
-              Projects
-            </a>
-          </li>
-          <li>
             <a href="#contact" className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors px-3 py-2">
               Contact Me
             </a>

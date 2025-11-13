@@ -9,7 +9,7 @@ function Footer() {
           {/* Left - Name and Title */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl md:text-4xl text-white font-bold mb-2">Cynthia</h2>
-            <p className="text-[#A8C5B8]">Technical Support | Finetech</p>
+            <p className="text-[#A8C5B8]">Technical Support | Fintech</p>
           </div>
 
           {/* Center - Navigation Links */}
@@ -19,12 +19,6 @@ function Footer() {
               className="text-[#A8C5B8] hover:text-white transition-colors"
             >
               Skills
-            </a>
-            <a 
-              href="#projects" 
-              className="text-[#A8C5B8] hover:text-white transition-colors"
-            >
-              Projects
             </a>
             <a 
               href="#contact" 
