@@ -43,10 +43,7 @@ function Hero() {
               Technical Support | Fintech
             </h2>
             <p className="text-sm md:text-base text-[#5F6C67] mb-6 leading-relaxed max-w-md">
-              Experienced in providing comprehensive technical support and building
-              modern web applications. Skilled in troubleshooting, system
-              maintenance, and full-stack development with a focus on delivering
-              reliable solutions.
+             I am a tech support engineer with a fintech background, focused on keeping systems reliable by troubleshooting issues, monitoring performance, and supporting both cloud and on-prem applications. I work across databases, Linux environments, and modern monitoring tools, and I enjoy building user-friendly web experiences with HTML, CSS, Javascript, Wordpress, Node.js, Vue.js, and Java. I love solving problems, improving performance and creating clean, functional digital solutions.
             </p>
             <button 
             onClick={() => document.getElementById("contact")?.scrollIntoView({behavior: "smooth"})}
