@@ -8,23 +8,28 @@ function Skills() {
   };
 
   const Developer = [
-    { name: 'HTML & CSS', level: 90 },
-    { name: 'JavaScript', level: 85 },
-    { name: 'React', level: 88 },
-    { name: 'Vue JS', level: 80 },
-    { name: 'Bootstrap', level: 92 },
-    { name: 'Tailwind CSS', level: 87 }
+    { name: 'Grafana', level: 70 },
+    { name: 'Python', level: 85 },
+    { name: 'ELK', level: 90 },
+    { name: 'Cloud Support(AWS & Huawei Cloud)', level: 90 },
+    { name: 'On prem Support', level: 95 },
+    { name: 'Database Management (oracle, PostgreSL, MySQL, myssl, Cassandra, mongoDB)', level: 95 },
+    { name: 'Tibco', level: 95 },
+    { name: 'Openshift', level: 95 },
+    { name: 'Linux', level: 90 },
+    { name: 'Technical Troubleshooting', level: 95 },
   ];
 
   const TechnicalSupport = [
+    { name: 'HTML & CSS', level: 90 },
+    { name: 'JavaScript', level: 85 },
+    { name: 'React', level: 88 },
+    { name: 'Vue JS', level: 90 },
+    { name: 'Bootstrap', level: 92 },
+    { name: 'Tailwind CSS', level: 87 },
     { name: 'Node.js', level: 85 },
-    { name: 'Python', level: 80 },
-    { name: 'PHP', level: 75 },
-    { name: 'MongoDB', level: 82 },
-    { name: 'MySQL', level: 88 },
+    { name: 'Python', level: 85 },
     { name: 'REST APIs', level: 90 },
-    { name: 'PostgreSQL', level: 85 },
-    { name: 'Linux', level: 90 }
   ];
 
   return (
@@ -53,7 +58,7 @@ function Skills() {
                   </svg>
                 </div>
                 <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
-                  Developer
+                  Technical Support
                 </span>
               </div>
               <svg
@@ -106,7 +111,7 @@ function Skills() {
                   </svg>
                 </div>
                 <span className="text-lg md:text-xl font-semibold text-[#2C3E3A]">
-                  Technical Support
+                  Developer
                 </span>
               </div>
               <svg
