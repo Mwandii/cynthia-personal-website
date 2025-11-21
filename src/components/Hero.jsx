@@ -61,7 +61,7 @@ function Hero() {
           <div className="relative">
             <div className="bg-[#6B8E7F] shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 overflow-hidden">
               <img
-                src="./Images/cynthia1"
+                src="/src/Images/cynthia1.jpeg"
                 alt="Cynthia"
                 className="w-full h-full object-cover"
               />

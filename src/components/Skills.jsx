@@ -46,7 +46,7 @@ function Skills() {
         {/* Skills Container */}
         <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8">
           {/* Frontend Developer */}
-          <div className=" ">
+          <div className="">
             <button
               onClick={() => toggleSection('frontend')}
               className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
@@ -76,10 +76,10 @@ function Skills() {
             {/* Frontend Skills Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
-                openSection === 'frontend' ? 'max-h-96' : 'max-h-0'
+                openSection === 'frontend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
               }`}
             >
-              <div className="px-6 pb-6 space-y-4">
+              <div className="px-6 pb-6 flex flex-col gap-4">
                 {Developer.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
@@ -129,17 +129,17 @@ function Skills() {
             {/* Backend Skills Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
-                openSection === 'backend' ? 'max-h-96' : 'max-h-0'
+                openSection === 'backend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
               }`}
             >
-              <div className="px-6 pb-6 space-y-4">
+              <div className="px-6 pb-6 flex flex-col gap-4">
                 {TechnicalSupport.map((skill, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium text-[#2C3E3A]">{skill.name}</span>
                       <span className="text-sm text-[#5F6C67]">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div className="w-full bg-[#E8EDE9] rounded-full h-2">
                       <div
                         className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
                         style={{ width: `${skill.level}%` }}

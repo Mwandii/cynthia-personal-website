@@ -13,7 +13,7 @@ function About() {
           <div className="w-full  flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <img
-                src="https://plus.unsplash.com/premium_photo-1681483884570-efce71c53be6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMHRlY2glMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+                src="/src/Images/cynthia2.jpeg"
                 alt="Developer illustration"
                 className="w-full h-full object-cover rounded-2xl shadow-[0_8px_24px_#6B8E7F26]"
               />
