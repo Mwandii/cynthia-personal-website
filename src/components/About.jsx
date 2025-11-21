@@ -36,6 +36,10 @@ function About() {
 
             {/* CV Download Button */}
             <div className="pt-4">
+              <a 
+  href="/cv/Cynthia Mumbua Resume.pdf" 
+  download
+>
               <button className="bg-[#6B8E7F] text-white px-8 py-3 rounded-md font-medium hover:bg-[#4A6B5E] hover:animate-bounce hover:cursor-pointer transition-colors inline-flex items-center gap-2 shadow-md hover:shadow-lg">
                 <svg 
                   className="w-5 h-5" 
@@ -52,6 +56,7 @@ function About() {
                 </svg>
                 Download CV
               </button>
+              </a>
             </div>
           </div>
         </div>
