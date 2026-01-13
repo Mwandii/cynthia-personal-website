@@ -20,25 +20,37 @@ useEffect(() => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md transition-all duration-300 ${
-        isScrolled ? "bg-white/70 shadow-md" : "bg-white/20 shadow-none"
+        isScrolled ? " shadow-md" : " shadow-none"
       }`}>
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">
-        <h1 href="/" className="text-xl md:text-2xl font-bold text-[#2C3E3A] cursor-pointer">Cynthia Muinde</h1>
+        <h1 href="/" className="text-xl md:text-2xl font-bold text-black cursor-pointer">Cynthia Muinde</h1>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-base">
           <li>
-            <a href="#about" className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors px-3 py-2">
+            <a href="#about" className="relative text-[#1a1a1a] px-3 py-2 font-medium
+             after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full
+             after:bg-[#1a1a1a] after:opacity-0 after:scale-x-0
+             after:origin-left after:transition-all after:duration-300
+             hover:after:opacity-100 hover:after:scale-x-100">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors px-3 py-2">
+            <a href="#skills" className="relative text-[#1a1a1a] px-3 py-2 font-medium
+             after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full
+             after:bg-[#1a1a1a] after:opacity-0 after:scale-x-0
+             after:origin-left after:transition-all after:duration-300
+             hover:after:opacity-100 hover:after:scale-x-100">
               Skills
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-[#5F6C67] hover:text-[#6B8E7F] transition-colors px-3 py-2">
+            <a href="#contact" className="relative text-[#1a1a1a] px-3 py-2 font-medium
+             after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full
+             after:bg-[#1a1a1a] after:opacity-0 after:scale-x-0
+             after:origin-left after:transition-all after:duration-300
+             hover:after:opacity-100 hover:after:scale-x-100">
               Contact Me
             </a>
           </li>
@@ -51,17 +63,17 @@ useEffect(() => {
           aria-label="Toggle menu"
         >
           <span
-            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-[#2D5016] transition-all duration-300 ${
               isMenuOpen ? 'rotate-45 translate-y-2' : ''
             }`}
           ></span>
           <span
-            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-[#2D5016] transition-all duration-300 ${
               isMenuOpen ? 'opacity-0' : ''
             }`}
           ></span>
           <span
-            className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+            className={`w-6 h-0.5 bg-[#2D5016] transition-all duration-300 ${
               isMenuOpen ? '-rotate-45 -translate-y-2' : ''
             }`}
           ></span>
@@ -74,12 +86,12 @@ useEffect(() => {
           isMenuOpen ? 'max-h-64' : 'max-h-0'
         }`}
       >
-        <ul className="flex flex-col bg-white border-t border-gray-100">
+        <ul className="flex flex-col bg-[#F7F5F2] border-t border-[#C4D7B2]">
           <li>
             <a
               href="#about"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-indigo-50 text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="block px-6 py-3 hover:bg-[#C4D7B2] text-[#1a1a1a] hover:text-[#2D5016] transition-colors font-medium"
             >
               About
             </a>
@@ -88,7 +100,7 @@ useEffect(() => {
             <a
               href="#skills"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-indigo-50 text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="block px-6 py-3 hover:bg-[#C4D7B2] text-[#1a1a1a] hover:text-[#2D5016] transition-colors font-medium"
             >
               Skills
             </a>
@@ -97,7 +109,7 @@ useEffect(() => {
             <a
               href="#projects"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-indigo-50 text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="block px-6 py-3 hover:bg-[#C4D7B2] text-[#1a1a1a] hover:text-[#2D5016] transition-colors font-medium"
             >
               Projects
             </a>
@@ -106,7 +118,7 @@ useEffect(() => {
             <a
               href="#contact"
               onClick={closeMenu}
-              className="block px-6 py-3 hover:bg-indigo-50 text-[#5F6C67] hover:text-[#6B8E7F] transition-colors"
+              className="block px-6 py-3 hover:bg-[#C4D7B2] text-[#1a1a1a] hover:text-[#2D5016] transition-colors font-medium"
             >
               Contact Me
             </a>

@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <footer className="bg-[#2C3E3A] text-white py-12 md:py-16">
+    <footer className="bg-black text-white py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">

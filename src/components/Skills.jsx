@@ -33,7 +33,7 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-white">
+    <section id="skills" className="py-16 md:py-24 px-6 md:px-12 lg:px-24 bg-stone-50">
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2C3E3A] mb-3">
@@ -45,14 +45,14 @@ function Skills() {
 
         {/* Skills Container */}
         <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8">
-          {/* Frontend Developer */}
+          {/* Technical Support */}
           <div className="">
             <button
               onClick={() => toggleSection('frontend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
+              className="w-full flex items-center justify-between p-6 bg-stone-50 hover:cursor-pointer transition-colors"
             >
               <div className="flex items-center gap-4">
-                <div className="text-2xl md:text-3xl text-[#6B8E7F]">
+                <div className="text-2xl md:text-3xl text-[#2C3E3A]">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
@@ -62,7 +62,7 @@ function Skills() {
                 </span>
               </div>
               <svg
-                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
+                className={`w-6 h-6 text-[#2C3E3A] transition-transform ${
                   openSection === 'frontend' ? 'rotate-180' : ''
                 }`}
                 fill="none"
@@ -73,7 +73,7 @@ function Skills() {
               </svg>
             </button>
 
-            {/* Frontend Skills Dropdown */}
+            {/* Technical Support Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
                 openSection === 'frontend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
@@ -88,7 +88,7 @@ function Skills() {
                     </div>
                     <div className="w-full bg-[#E8EDE9] rounded-full h-2">
                       <div
-                        className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
+                        className="bg-[#2C3E3A] h-2 rounded-full transition-all duration-500"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
@@ -98,14 +98,14 @@ function Skills() {
             </div>
           </div>
 
-          {/* Technical Support */}
+          {/* Developer */}
           <div className="">
             <button
               onClick={() => toggleSection('backend')}
-              className="w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 hover:cursor-pointer transition-colors"
+              className="w-full flex items-center justify-between p-6 bg-stone-50 hover:cursor-pointer transition-colors"
             >
               <div className="flex items-center gap-4">
-                <div className="text-2xl md:text-3xl text-[#6B8E7F]">
+                <div className="text-2xl md:text-3xl text-[#2C3E3A]">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                   </svg>
@@ -115,7 +115,7 @@ function Skills() {
                 </span>
               </div>
               <svg
-                className={`w-6 h-6 text-[#6B8E7F] transition-transform ${
+                className={`w-6 h-6 text-[#2C3E3A] transition-transform ${
                   openSection === 'backend' ? 'rotate-180' : ''
                 }`}
                 fill="none"
@@ -126,7 +126,7 @@ function Skills() {
               </svg>
             </button>
 
-            {/* Backend Skills Dropdown */}
+            {/* Developer Dropdown */}
             <div
               className={`overflow-hidden transition-all duration-300 ${
                 openSection === 'backend' ? 'max-h-96 overflow-y-auto' : 'max-h-0'
@@ -141,7 +141,7 @@ function Skills() {
                     </div>
                     <div className="w-full bg-[#E8EDE9] rounded-full h-2">
                       <div
-                        className="bg-[#6B8E7F] h-2 rounded-full transition-all duration-500"
+                        className="bg-[#2C3E3A] h-2 rounded-full transition-all duration-500"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
