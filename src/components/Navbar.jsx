@@ -19,7 +19,7 @@ useEffect(() => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md transition-all duration-300 ${
+    <nav className={`fixed top-0 w-full z-50 backdrop-blur-md transition-all duration-300 ${
         isScrolled ? " shadow-md" : " shadow-none"
       }`}>
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-24 py-4">

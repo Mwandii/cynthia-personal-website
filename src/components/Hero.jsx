@@ -2,11 +2,11 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-stone-50 max-w-7xl">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 md:gap-12 min-h-screen px-6 mt-8 md:px-16 lg:px-24 pt-20 md:pt-16 pb-12 bg-stone-50">
       {/* Left side: Text content and social icons */}
       <div className="flex flex-col items-center md:items-start max-w-lg">
         {/* Social icons - stacked vertically on both mobile and desktop */}
-        <div className="flex md:flex-col gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl">
+        <div className="flex gap-4 md:gap-4 mb-5 md:mb-6 text-xl md:text-2xl">
           <a
             href="https://www.linkedin.com/in/cynthia-muinde/"
             target="_blank"
@@ -96,7 +96,7 @@ function Hero() {
         <div className="relative">
           <div className="bg-black shadow-[0_8px_24px_#00000025] rounded-full w-56 h-56 md:w-100 md:h-100 overflow-hidden">
             <img
-              src="Images/cynthia1.jpeg"
+              src="Images/picture.jpeg"
               alt="Lynette"
               className="object-cover"
             />
