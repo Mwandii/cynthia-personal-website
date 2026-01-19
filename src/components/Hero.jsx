@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -16,12 +16,12 @@ function Hero() {
             <FaLinkedin />
           </a>
           <a
-            href="https://x.com/CyntiaMumbua"
+            href="https://wa.me/254704207486"
             target="_blank"
             rel="noreferrer"
             className="text-[#2C3E3A] hover:text-black transition-colors"
           >
-            <FaTwitter />
+            <FaWhatsapp />
           </a>
           <a
             href="https://github.com/cynmumbua"

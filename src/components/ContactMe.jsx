@@ -44,7 +44,7 @@ function ContactMe() {
                 Email
               </h3>
               <a 
-                href="mailto:muindetuva@gmail.com" 
+                href="mailto:cynmumbua@gmail.com" 
                 className="text-base text-[#5F6C67] break-all"
               >
                 cynmumbua@gmail.com

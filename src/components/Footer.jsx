@@ -1,4 +1,4 @@
-    import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+    import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -40,13 +40,13 @@ function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://x.com/CyntiaMumbua"
+              href="https://wa.me/254704207486"
               target="_blank"
               rel="noreferrer"
               className="text-[#A8C5B8] hover:text-white transition-colors"
               aria-label="Twitter"
             >
-              <FaTwitter />
+              <FaWhatsapp />
             </a>
             <a
               href="https://github.com/cynmumbua"
