@@ -44,8 +44,10 @@ function ContactMe() {
                 Email
               </h3>
               <a 
-                href="mailto:cynmumbua@gmail.com" 
-                className="text-base text-[#5F6C67] break-all"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=cynmumbua@gmail.com&su=Subject&body=Message" 
+                target="_blank"
+                rel="noreferrer"
+                className="text-base text-[#5F6C67] break-all hover:text-black hover:underline cursor-pointer"
               >
                 cynmumbua@gmail.com
               </a>
@@ -61,13 +63,18 @@ function ContactMe() {
               </svg>
             </div>
             <div className="flex-1">
-              <h3 className="text-lg font-semibold text-black mb-1">
-                Location
-              </h3>
-              <p className="text-base text-gray-600">
-                Nairobi - Kenya
-              </p>
-            </div>
+  <h3 className="text-lg font-semibold text-black mb-1">
+    Location
+  </h3>
+  <a 
+    href="https://www.google.com/maps/search/?api=1&query=Nairobi,Kenya" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-base text-gray-600 hover:text-black hover:underline cursor-pointer"
+  >
+    Nairobi - Kenya
+  </a>
+</div>
           </div>
         </div>
       </div>
