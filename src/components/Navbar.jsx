@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from "react";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -64,7 +63,7 @@ function Navbar() {
               {/* Decorative dot accent */}
               <span className="w-1.5 h-1.5 rounded-full bg-[#B5956A] transition-transform duration-300 group-hover:scale-150" />
               <span className="font-['Cormorant_Garamond'] font-semibold text-xl md:text-2xl tracking-wide text-[#1C1917] leading-none">
-                Cynthia Muinde
+                Cynthia
               </span>
             </a>
 

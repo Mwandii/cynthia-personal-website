@@ -103,16 +103,7 @@ function Hero() {
                 </span>
               </button>
 
-              <a
-                href="#about"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="px-8 py-3.5 font-['Jost'] text-sm font-medium tracking-widest uppercase text-[#1C1917] border border-[#1C1917]/30 transition-all duration-300 hover:border-[#1C1917] cursor-pointer no-underline"
-              >
-                View Work
-              </a>
+              
             </div>
 
             {/* Social links */}
