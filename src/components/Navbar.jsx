@@ -63,7 +63,7 @@ function Navbar() {
               {/* Decorative dot accent */}
               <span className="w-1.5 h-1.5 rounded-full bg-[#B5956A] transition-transform duration-300 group-hover:scale-150" />
               <span className="font-['Cormorant_Garamond'] font-semibold text-xl md:text-2xl tracking-wide text-[#1C1917] leading-none">
-                Cynthia
+                Cynthia Muinde
               </span>
             </a>
 
@@ -122,7 +122,7 @@ function Navbar() {
       {/* Mobile Menu Overlay */}
       <div
         aria-hidden={!isMenuOpen}
-        className={`fixed inset-0 z-40 md:hidden transition-all duration-500 ${
+        className={`fixed inset-0 z-60 md:hidden transition-all duration-500 ${
           isMenuOpen ? "visible opacity-100" : "invisible opacity-0"
         }`}
       >
@@ -135,22 +135,18 @@ function Navbar() {
         {/* Slide-in panel */}
         <div
           ref={menuRef}
-          className={`absolute top-0 right-0 bottom-0 w-72 bg-[#FAFAF8] flex flex-col transition-transform duration-400 ease-in-out ${
+          className={`absolute top-0 right-0 bottom-0 w-72 bg-[#FAFAF8] flex flex-col transition-transform duration-400 ease-in-out z-70 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
           {/* Panel header */}
-          <div className="flex items-center justify-between px-8 h-16 border-b border-[#E8E4DC]">
-            <span className="font-['Cormorant_Garamond'] text-lg font-semibold text-[#1C1917] tracking-wide">
-              Menu
-            </span>
-            <button
-              onClick={() => setIsMenuOpen(false)}
-              className="w-8 h-8 flex items-center justify-center text-[#78716C] hover:text-[#1C1917] transition-colors bg-transparent border-none cursor-pointer outline-none"
-              aria-label="Close menu"
-            >
-              ✕
-            </button>
+          <div className="flex items-center px-8 h-16 border-b border-[#E8E4DC]">
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#B5956A]" />
+              <span className="font-['Cormorant_Garamond'] font-semibold text-xl tracking-wide text-[#1C1917]">
+                Cynthia
+              </span>
+            </div>
           </div>
 
           {/* Nav items */}
