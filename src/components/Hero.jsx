@@ -45,7 +45,7 @@ function Hero() {
       {/* Background typographic watermark */}
       <span
         aria-hidden="true"
-        className="absolute -bottom-6 -right-4 font-['Cormorant_Garamond'] font-bold text-[clamp(80px,16vw,200px)] text-[#1C1917]/[0.04] leading-none select-none pointer-events-none tracking-tighter"
+        className="absolute -bottom-6 -right-4 font-['Cormorant_Garamond'] font-bold text-[clamp(80px,16vw,200px)] text-[#1C1917]/4 leading-none select-none pointer-events-none tracking-tighter"
         style={{ transform: "translateY(var(--scroll-y, 0))" }}
       >
         Cynthia
@@ -77,8 +77,7 @@ function Hero() {
               <span className="relative inline-block">
                 Cynthia
                 {/* Underline accent */}
-                <span className="absolute -bottom-1 left-0 right-0 h-[3px] bg-[#B5956A] rounded-full" />
-              </span>
+                </span>
               <span className="block text-[#78716C] font-light">Muinde.</span>
             </h1>
 
@@ -144,7 +143,7 @@ function Hero() {
               <div className="absolute -bottom-3 -left-3 w-full h-full border border-[#1C1917]/10" />
 
               {/* Image container — square, not circle */}
-              <div className="relative w-[240px] h-[300px] md:w-[340px] md:h-[420px] overflow-hidden bg-[#E8E4DC]">
+              <div className="relative w-60 h-[300px] md:w-[340px] md:h-[420px] overflow-hidden bg-[#E8E4DC]">
                 <img
                   src="Images/picture.jpeg"
                   alt="Cynthia Muinde"
@@ -169,11 +168,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce opacity-50">
-        <span className="font-['Jost'] text-[10px] tracking-[0.2em] uppercase text-[#78716C]">Scroll</span>
-        <div className="w-px h-8 bg-gradient-to-b from-[#78716C] to-transparent" />
-      </div>
+      
     </section>
   );
 }
